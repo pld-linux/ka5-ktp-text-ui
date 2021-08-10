@@ -50,6 +50,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Telepathy handler for Text Chats.
 
+%description -l pl.UTF-8
+Program obsługi Telepathy do tekstowych czatów.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
